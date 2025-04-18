@@ -9,7 +9,86 @@ export default [
         "icon": "ic:outline-dashboard",
         "child": [],
         "meta": {}
-      }
+      },
+      {
+        "title": "School",
+        "path": "/school",
+        "icon": "ic:round-home-work",
+        "child": [
+          {
+            "title": "List of School",
+            "path": "/school/school",
+            "icon": "",
+            "child": []
+          },
+        ],
+        "meta": {}
+      },
+      {
+        "title": "User Management",
+        "path": "/usermanagement",
+        "icon": "fa6-solid:users",
+        "child": [
+          {
+            "title": "Merchant",
+            "path": "/usermanagement/merchant",
+            "icon": "",
+            "child": []
+          },
+          {
+            "title": "Parent",
+            "path": "/usermanagement/parent",
+            "icon": "",
+            "child": []
+          },
+          {
+            "title": "Staff",
+            "path": "/usermanagement/staff",
+            "icon": "",
+            "child": []
+          },
+          {
+            "title": "Student",
+            "path": "/usermanagement/student",
+            "icon": "",
+            "child": []
+          }
+        ],
+        "meta": {}
+      },
+      {
+        "title": "Settings",
+        "path": "/settings",
+        "icon": "mdi:cog",
+        "child": [
+          // {
+          //   "title": "User Management",
+          //   "path": "/settings/user-management/user-list",
+          //   "icon": "",
+          //   "child": []
+          // },
+          // {
+          //   "title": "Role Management",
+          //   "path": "/settings/user-management/role-list",
+          //   "icon": "",
+          //   "child": []
+          // },
+          {
+            "title": "Public Holiday",
+            "path": "/settings/public-holiday",
+            "icon": "",
+            "child": []
+          },
+          {
+            "title": "School Holiday",
+            "path": "/settings/school-holiday",
+            "icon": "",
+            "child": []
+          }
+        ],
+        "meta": {}
+      },
+      
     ]
   },
   {
